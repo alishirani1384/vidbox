@@ -1,0 +1,25 @@
+{
+  "name": "vidbox",
+  "version": "1.0.0",
+  "description": "Vidbox is a video player component that can be used in your web projects.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "video",
+    "player",
+    "javascript",
+    "vidbox"
+  ],
+  "author": "ali shirani",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
