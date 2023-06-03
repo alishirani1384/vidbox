@@ -1,6 +1,6 @@
 {
   "name": "vidbox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vidbox is a video player component that can be used in your web projects.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
