@@ -5,11 +5,14 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alishirani1384/vidbox.git"
+  },
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
     "release": "npm run build && changeset publish",
     "lint": "tsc"
-    
   },
   "keywords": [
     "video",
